@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Invitacion</title>
+        <style>
+            div{
+                border-top:1em dashed rgb(255, 5, 5);
+                border-bottom:1em dashed rgb(255, 5, 5);
+                background-image:url("https://img.freepik.com/vector-premium/ilustracion-vector-fondo-textura-metal-azul_46250-101.jpg");
+                position:absolute;
+                width:700px;
+                height:600px;
+                left:25%;
+
+
+            }
+            #titulo{
+                text-align:center;
+                font-family:"fantasy" ,cursive;
+                font-size:1.5em;
+            }
+            #imagen{
+                float:left;
+
+                
+            }
+            h2{
+                text-align:center;
+                font-size:3em;
+                position:absolute;
+                top:70px;
+                left:40%;
+                color:rgb(255, 2, 2);
+            
+            }
+            p{
+                text-align: center;
+                font-size: 2em;
+                position:absolute;
+                top:150px;
+                left:15%;
+            }
+            #bot{
+                position:absolute;
+                top:90%;
+                left:25%;
+                width:50%;
+                height:10%;
+            }
+            #aceptar{
+                position:absolute;
+                top:88%;
+                left:42%;
+                width:35%;
+                height:7%;
+            }
+            #rayo{
+                position:absolute;
+                top: 50%;
+                left: 10%;
+                z-index: 2;
+
+            }
+            #flag{
+                position: absolute;
+                top:40%;
+                left:65%;
+                width:30% ;
+                height:40%;
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+    <h1 id="titulo">     <img id="imagen" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cars_Logo_Black.svg/1024px-Cars_Logo_Black.svg.png"width="30%"><br>¡Te invito a mi fiesta de cumpleaños!
+    </h1>
+    <h2>
+        Sofia
+    </h2>
+    <p>
+        Cumplo 15 años acompañame a celebrar
+    </p>
+    <img id = "bot" src="https://static.vecteezy.com/system/resources/thumbnails/009/342/302/small/glossy-buttons-clipart-design-illustration-free-png.png">
+    <h1 id ="aceptar"> Aceptar</h1>
+    <img id="rayo" src="C:\Users\gabri\Downloads\ray.png"width="75%"
+    height="40%">
+    <img id="flag" src="https://static.vecteezy.com/system/resources/previews/009/391/427/non_2x/racing-flag-clipart-design-illustration-free-png.png">
+    </div>
+
+    </body>
+</html>
